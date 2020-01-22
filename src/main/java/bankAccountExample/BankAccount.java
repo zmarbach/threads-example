@@ -1,3 +1,5 @@
+package bankAccountExample;
+
 public class BankAccount {
     private Integer balance = 100;
 

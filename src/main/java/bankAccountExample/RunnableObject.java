@@ -1,3 +1,5 @@
+package bankAccountExample;
+
 public class RunnableObject implements Runnable {
     private BankAccount bankAccount = new BankAccount();
 
@@ -19,7 +21,7 @@ public class RunnableObject implements Runnable {
         System.out.println(Thread.currentThread().getName() + " bout to withdraw");
             try {
                 System.out.println(Thread.currentThread().getName() + " going to sleep.");
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
