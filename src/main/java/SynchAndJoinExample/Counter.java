@@ -1,4 +1,4 @@
-package counterExample;
+package SynchAndJoinExample;
 
 public class Counter implements Runnable {
     private int count = 0;

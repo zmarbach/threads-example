@@ -1,4 +1,4 @@
-package bankAccountExample;
+package SynchAndThreadBasicsExample;
 
 public class BankAccount {
     private Integer balance = 100;

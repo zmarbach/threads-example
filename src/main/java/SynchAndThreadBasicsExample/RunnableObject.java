@@ -1,4 +1,4 @@
-package bankAccountExample;
+package SynchAndThreadBasicsExample;
 
 public class RunnableObject implements Runnable {
     private BankAccount bankAccount = new BankAccount();

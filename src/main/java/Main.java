@@ -1,13 +1,16 @@
-import bankAccountExample.RunnableObject;
-import counterExample.Counter;
+import SynchAndThreadBasicsExample.RunnableObject;
+import SynchAndJoinExample.Counter;
+import WaitAndNotifyExample.Consumer;
+import WaitAndNotifyExample.Producer;
+import WaitAndNotifyExample.Q;
 
 public class Main {
-
-
+    
     public static void main(String[] args) throws InterruptedException {
         //toggle these values based on which example you want to run
-        boolean useCounterExample = true;
+        boolean useCounterExample = false;
         boolean useBankAccountExample = false;
+        boolean useInterThreadCommunicationExample = true;
 
         if(useBankAccountExample){
             System.out.println("---------- START ----------");
@@ -44,10 +47,13 @@ public class Main {
             System.out.println("Count: " + counter.getCount());
             System.out.println("---------- END ----------");
 
-
         }
 
-
-
+        if(useInterThreadCommunicationExample){
+            System.out.println("---------- START ----------");
+            Q q = new Q();
+            new Producer(q);
+            new Consumer(q);
+        }
     }
 }

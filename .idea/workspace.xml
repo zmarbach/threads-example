@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b34a6e7f-9b12-49b3-a167-9a2a809841f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/counterExample/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interThreadCommunicationExample/Q.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/threads-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/threads-example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interThreadCommunicationExample/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountExample/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RunnableObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bankAccountExample/RunnableObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/threads.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interThreadCommunicationExample/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interThreadCommunicationExample/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interThreadCommunicationExample/Q.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interThreadCommunicationExample/Q.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Counter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RunnableObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RunnableObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RunnableObject.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WidoihD6rbsKGeFUwUQNGxa2IT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -102,26 +102,26 @@
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
     <state x="425" y="195" key="#Project_Structure/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579636536275" />
-    <state x="638" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1579713198093">
+    <state x="638" y="252" key="#com.intellij.ide.util.MemberChooser" timestamp="1579713347450">
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
-    <state x="638" y="252" key="#com.intellij.ide.util.MemberChooser/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579713198093" />
-    <state width="1621" height="292" key="GridCell.Tab.0.bottom" timestamp="1579711344954">
+    <state x="638" y="252" key="#com.intellij.ide.util.MemberChooser/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579713347450" />
+    <state width="1621" height="292" key="GridCell.Tab.0.bottom" timestamp="1579714912735">
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
-    <state width="1621" height="292" key="GridCell.Tab.0.bottom/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579711344954" />
-    <state width="1621" height="292" key="GridCell.Tab.0.center" timestamp="1579711344953">
+    <state width="1621" height="292" key="GridCell.Tab.0.bottom/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579714912735" />
+    <state width="1621" height="292" key="GridCell.Tab.0.center" timestamp="1579714912735">
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
-    <state width="1621" height="292" key="GridCell.Tab.0.center/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579711344953" />
-    <state width="1621" height="292" key="GridCell.Tab.0.left" timestamp="1579711344953">
+    <state width="1621" height="292" key="GridCell.Tab.0.center/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579714912735" />
+    <state width="1621" height="292" key="GridCell.Tab.0.left" timestamp="1579714912735">
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
-    <state width="1621" height="292" key="GridCell.Tab.0.left/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579711344953" />
-    <state width="1621" height="292" key="GridCell.Tab.0.right" timestamp="1579711344953">
+    <state width="1621" height="292" key="GridCell.Tab.0.left/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579714912735" />
+    <state width="1621" height="292" key="GridCell.Tab.0.right" timestamp="1579714912735">
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
-    <state width="1621" height="292" key="GridCell.Tab.0.right/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579711344953" />
+    <state width="1621" height="292" key="GridCell.Tab.0.right/0.0.1664.1069/-1920.0.1920.1040@0.0.1664.1069" timestamp="1579714912735" />
     <state x="313" y="111" key="SettingsEditor" timestamp="1579636971847">
       <screen x="0" y="0" width="1664" height="1069" />
     </state>
