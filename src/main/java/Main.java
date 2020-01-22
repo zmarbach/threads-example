@@ -5,7 +5,7 @@ import WaitAndNotifyExample.Producer;
 import WaitAndNotifyExample.Q;
 
 public class Main {
-    
+
     public static void main(String[] args) throws InterruptedException {
         //toggle these values based on which example you want to run
         boolean useCounterExample = false;

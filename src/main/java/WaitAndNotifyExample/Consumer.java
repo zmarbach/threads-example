@@ -17,7 +17,7 @@ public class Consumer implements  Runnable{
         while(true){
             q.getNum();
             try {
-                Thread.sleep(1000);
+                Thread.sleep(1500);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
